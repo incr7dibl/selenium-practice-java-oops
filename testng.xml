@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Selenium Practice Test Suite" parallel="tests" thread-count="1">
+    <test name="AutomationPracticeTests">
+        <classes>
+            <class name="com.example.TestPractise"/>
+            <class name="com.example.AutomationPracticeTestSuite"/>
+        </classes>
+    </test>
+</suite>
