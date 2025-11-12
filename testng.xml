@@ -1,9 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <suite name="Selenium Practice Test Suite" parallel="tests" thread-count="1">
-    <test name="AutomationPracticeTests">
+    <test name="AutomationPracticeTests" enabled="false">
+        <!-- Add classes here with just the name (package is com.example) -->
         <classes>
-            <class name="com.example.TestPractise"/>
-            <class name="com.example.AutomationPracticeTestSuite"/>
+            <class name="com.example.TestPractise" />
+
+            <!-- Add more: <class name="com.example.YourTestClassName"/> -->
+        </classes>
+    </test>
+    <test name="Module2" enabled="true">
+        <parameter name="URL" value="https://www.example.com" />
+        <classes>
+            <class name="com.example.TestPractise2" />
         </classes>
     </test>
 </suite>
